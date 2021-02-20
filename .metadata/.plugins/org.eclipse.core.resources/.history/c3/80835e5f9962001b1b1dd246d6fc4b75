@@ -1,0 +1,51 @@
+import java.security.Policy;
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		/*
+		 * Siz de klavyeden girilen metnin polindrome olup olamdığını  kontrol eden;polindrome ise metni büyük harflerle ekrana 
+		 * yazan değil ise metni küçük harflerle ekrana yazan uygulamanın kodlarını yazınız.
+		 */
+		
+
+		while(true) {
+			cikti(polindrome(girdi()),girdi());
+		}
+
+		
+		
+	}
+	
+	private static boolean polindrome(String metin) {
+		StringBuilder sb=new StringBuilder();
+		String ters=metin;
+		sb.append(ters);
+		sb.reverse();
+		sb.toString();
+		boolean a=false;
+		if(metin.equals(ters))
+			a=true;
+			
+		System.out.println(ters);
+		return a;
+	}
+	
+	private static void cikti(boolean a,String metin) {
+		if(a)
+			System.out.println(metin.toUpperCase());
+		else
+			System.out.println(metin.toLowerCase());
+	}
+	
+	private static String girdi() {
+		Scanner scn=new Scanner(System.in);
+		System.out.println("Lütfen bir metin giriniz");
+		String metin=scn.nextLine();
+		return metin;
+	}
+	
+	
+
+}

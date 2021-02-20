@@ -1,0 +1,12 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		/*
+		 * Siz de klavyeden girilen metnin polindrome olup olamdığını  kontrol eden;polindrome ise metni büyük harflerle ekrana 
+		 * yazan değil ise metni küçük harflerle ekrana yazan uygulamanın kodlarını yazınız.
+		 */
+
+	}
+
+}

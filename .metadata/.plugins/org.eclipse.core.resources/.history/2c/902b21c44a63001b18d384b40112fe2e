@@ -1,0 +1,13 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		/*
+		 * Siz de klavyeden karakterleri tek tek alıp bir diziye atan ve sadece harfleri kabul eden; karakter ve rakam 
+		 * girildiğinde hata olarak algılayan ve bu hatayı, çağrıldığı yerde kontrol eden Exception türünün kodunu yazınız
+		 * 
+		 */
+
+	}
+
+}

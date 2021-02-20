@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		/*
+		 * Siz de klavyeden karakterleri tek tek alıp bir diziye atan ve sadece harfleri kabul eden; karakter ve rakam 
+		 * girildiğinde hata olarak algılayan ve bu hatayı, çağrıldığı yerde kontrol eden Exception türünün kodunu yazınız
+		 * 
+		 */
+		Scanner scn=new Scanner(System.in);
+		
+		char[] c=new char[2];
+		
+		c[0]=scn.next().charAt(1);
+		c[1]=scn.next().charAt(0);
+		
+		System.out.println(c[0]);
+		System.out.println(c[1]);
+		
+	}
+
+}

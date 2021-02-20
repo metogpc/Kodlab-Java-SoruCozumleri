@@ -1,0 +1,29 @@
+import java.util.LinkedList;
+
+public class Stack {
+
+	private LinkedList list=new LinkedList();
+	
+	
+
+	public Stack(LinkedList list) {
+		super();
+		this.list = list;
+	}
+
+	public void push(Object o) {
+		list.addLast(o);
+	}
+	
+	public Object pop() {
+		Object a=list.getFirst();
+		list.removeFirst();
+		return a;
+	}
+	
+	public Object peek() {
+		return list.getFirst();
+	}
+	
+	
+}

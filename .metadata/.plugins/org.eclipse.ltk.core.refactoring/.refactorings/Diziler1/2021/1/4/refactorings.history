@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;snippet&apos; to &apos;paket&apos;&#x0A;- Original project: &apos;Diziler1&apos;&#x0A;- Original element: &apos;Diziler1/src/snippet&apos;&#x0A;- Renamed element: &apos;Diziler1/src/paket&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;snippet&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;snippet" name="paket" qualified="false" references="true" stamp="1611502757505" textual="false" version="1.0"/>
+</session>

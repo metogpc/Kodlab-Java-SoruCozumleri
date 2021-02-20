@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		/*
+		 * Siz de klavyeden karakterleri tek tek alıp bir diziye atan ve sadece harfleri kabul eden; karakter ve rakam 
+		 * girildiğinde hata olarak algılayan ve bu hatayı, çağrıldığı yerde kontrol eden Exception türünün kodunu yazınız
+		 * 
+		 */
+		Scanner scn=new Scanner(System.in);
+		
+		ArrayList<Character> c=new ArrayList<Character>();
+		
+		while(true) {
+			
+			c.add(scn.next().charAt(0));
+			
+			System.out.println(c.get(0));
+			
+			c.forEach(ca->{
+				System.out.println(ca);
+			});
+			
+		}
+
+		
+	}
+
+}

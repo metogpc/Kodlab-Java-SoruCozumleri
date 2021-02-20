@@ -1,0 +1,12 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		/*
+		 * Siz de LinkedList yapisini kullanarak stack(yigit) yapisini isleyen uygulamanin kodlarini yazin.(Stack yapisina son giren 
+		 * eleman stack yapisindan en son cikar)
+		 */
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		/*
+		 * Siz de klavyeden 0 ile 180 arasında bir açı girilen ve bu açının sin,cos,tan,cot,sec ve cosec değerlerini hesaplayan uygulamanın
+		 * kodunu yazınız.
+		 */
+		
+		double aci;
+		
+		Scanner scn=new Scanner(System.in);
+		
+		System.out.println("Lütfen bir açı değeri giriniz");
+		aci=scn.nextDouble();
+		
+		System.out.println("Sin:"+Math.toRadians(Math.sin(aci)));
+		System.out.println("Cos:"+Math.toRadians(Math.cos(aci)));
+		System.out.println("Tan:"+Math.tan(aci));
+		
+
+	}
+
+}
